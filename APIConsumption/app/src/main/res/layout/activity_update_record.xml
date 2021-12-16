@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C6868"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".updateRecord">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/nameUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/NameUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.8"
+            android:background="#E3DBDB"
+            android:ems="10"
+            android:hint="enter new name"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/phoneUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Phone"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/PhoneUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.8"
+            android:background="#E3DBDB"
+            android:ems="10"
+            android:hint="enter new phone"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/streetUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Street"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/StreetUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.8"
+            android:background="#E3DBDB"
+            android:ems="10"
+            android:hint="enter new street"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/emailUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Email"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EmailUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.8"
+            android:background="#E3DBDB"
+            android:ems="10"
+            android:hint="enter new email"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/cityUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="City/Zip"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/CityUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.8"
+            android:background="#E3DBDB"
+            android:ems="10"
+            android:hint="enter new city/state"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.1"
+        android:onClick="updateRecord"
+        android:text="UPDATE"
+        android:textSize="20dp" />
+
+</LinearLayout>
