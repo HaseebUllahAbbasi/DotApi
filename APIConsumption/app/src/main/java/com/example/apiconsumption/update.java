@@ -21,17 +21,6 @@ public class update extends AppCompatActivity {
     }
     public void update(View view)
     {
-        DBhelper dBhelper = new DBhelper(this);
-        Cursor c=dBhelper.search(txt.getText().toString());
-        if(c.moveToFirst())
-        {
-            int index = c.getColumnIndex("Name");
-            String name = c.getString(index);
-            Intent intent = new Intent(this,updateRecord.class);
-            intent.putExtra("Name",name);
-            startActivity(intent);
-        }
-        else
-            Toast.makeText(this, "No record found with this name", Toast.LENGTH_SHORT).show();
+
     }
 }

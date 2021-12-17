@@ -18,8 +18,6 @@ public class delete extends AppCompatActivity {
     }
     public void deleteItem(View view)
     {
-        DBhelper dBhelper = new DBhelper(this);
-        dBhelper.deleteRecord(txt.getText().toString());
-        Toast.makeText(this, "Record Deleted", Toast.LENGTH_SHORT).show();
+
     }
 }

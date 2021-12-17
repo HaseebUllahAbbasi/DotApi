@@ -27,8 +27,6 @@ public class updateRecord extends AppCompatActivity {
 
     public void updateRecord(View view)
     {
-        DBhelper dBhelper = new DBhelper(this);
-        dBhelper.updateRecord(oldname,updateName.getText().toString(),updatePhone.getText().toString(),updateStreet.getText().toString(),updateEmail.getText().toString(),updateCity.getText().toString());
-        Toast.makeText(this, "Record is Updated", Toast.LENGTH_SHORT).show();
+
     }
 }
