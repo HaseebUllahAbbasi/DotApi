@@ -44,7 +44,6 @@ public class ShowAll extends AppCompatActivity {
 
     public void show()
     {
-        final String[] data = {""};
         RequestQueue queue = Volley.newRequestQueue(this);
         ArrayAdapter adapter = new ArrayAdapter(this,R.layout.file,list);
         String url = "https://protected-inlet-55078.herokuapp.com/person";
