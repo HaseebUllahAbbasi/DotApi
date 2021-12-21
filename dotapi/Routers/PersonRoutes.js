@@ -10,3 +10,15 @@ router.route('/person/:id').get(findPersonById);
 router.route('/personByCity/:city').get(findPersonByCity);
 
 module.exports = router;
+
+
+
+//heroku login
+//heroku create
+//git push heroku main
+
+
+// generated from heroku
+ // https://protected-inlet-55078.herokuapp.com/
+
+// https://protected-inlet-55078.herokuapp.com/person 
